@@ -11,15 +11,14 @@ app.use(bodyparser());
 /**
  * Mount all the middlewares on the umbrella app
  */
-Reflect.ownKeys(middlewares).forEach(item => {
-  app.use(middlewares[item]);
+middlewares.forEach(mw => {
+  app.use(mw);
 });
 
 /**
  * Mount all the services on the umbrella app
  */
-Reflect.ownKeys(services).forEach(item => {
-  const svc = services[item];
+services.forEach(svc => {
   app.use(mount(svc.path, svc.service));
 });
 
