@@ -3,6 +3,9 @@ const cors = require("@koa/cors");
 const bodyparser = require("koa-bodyparser");
 const mount = require("koa-mount");
 
+const middlewares = require("./middlewares");
+const services = require("./services");
+
 const app = new Koa();
 
 app.use(cors());
@@ -22,4 +25,4 @@ services.forEach(svc => {
   app.use(mount(svc.path, svc.service));
 });
 
-module.export = app;
+module.exports = app;

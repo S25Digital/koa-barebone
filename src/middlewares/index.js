@@ -1,5 +1,5 @@
 const helloMw = require("./Hello");
 
-module.export = [
+module.exports = [
   helloMw
 ];

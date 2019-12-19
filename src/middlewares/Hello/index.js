@@ -3,4 +3,4 @@ async function mw(ctx, next) {
   await next();
 }
 
-module.export = mw;
+module.exports = mw;
