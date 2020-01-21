@@ -1,4 +1,7 @@
 # koa-barebone
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/singhs020/koa-barebone.svg)](https://greenkeeper.io/)
+
 A basic starter template for koa API
 
 ## whats included:
