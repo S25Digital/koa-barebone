@@ -1,6 +1,6 @@
 # koa-barebone
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/singhs020/koa-barebone.svg)](https://greenkeeper.io/)
+![Travis badge](https://travis-ci.org/singhs020/koa-barebone.svg?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/singhs020/koa-barebone.svg)](https://greenkeeper.io/)
 
 A basic starter template for koa API
 
