@@ -30,5 +30,10 @@
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.2.1",
     "koa-mount": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-shell": "^0.8.0"
   }
 }
