@@ -30,7 +30,7 @@
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",
     "koa-mount": "^4.0.0",
-    "koa-mw-logger": "1.4.2"
+    "koa-mw-logger": "1.4.3"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
