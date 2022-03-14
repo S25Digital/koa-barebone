@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/singhs020/koa-barebone#readme",
   "dependencies": {
-    "@koa/cors": "^3.1.0",
+    "@koa/cors": "^3.2.0",
     "@koa/router": "^9.4.0",
     "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0",
